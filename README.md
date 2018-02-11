@@ -1,10 +1,13 @@
 # book_flight.py
 Python 3 CLI program for booking flight tickets using api.skypicker.com
+
 Program is built mainly for Kiwi.com Python weekend and shall be used with special care.
 
 ## Warning
 This program is without warranty and is created as exercise case.
+
 Author is not programmer and takes no responsibility for re-use of this program.
+
 Kitties can die when using without caution. 
 
  
@@ -46,8 +49,11 @@ py.test is used as test framework
  
 ## Examples
 > ./book_flight.py --date 2018-04-13 --from BCN --to DUB --one-way
+
 > ./book_flight.py --date 2018-04-13 --from LHR --to DXB --return 5
+
 > ./book_flight.py --date 2018-04-13 --from NRT --to SYD --cheapest --bags 2
+
 > ./book_flight.py --date 2018-04-13 --from CPH --to MIA --fastest
 
 All above examples will make booking using kiwi api. Returns reservation code. No payment is necessary.
