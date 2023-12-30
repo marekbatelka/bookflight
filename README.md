@@ -1,3 +1,5 @@
+NOT MAINTAINED
+
 # book_flight.py
 Python 3 CLI program for booking flight tickets using api.skypicker.com
 
